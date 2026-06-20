@@ -8,7 +8,6 @@ ifeq ($(TARGET_DEVICE),a55x)
 
 $(call add-radio-file-sha1-checked,radio/bootloader.img,8401bb00408e3c5d814e8aadce05215a2a9cf250)
 $(call add-radio-file-sha1-checked,radio/cp_debug.img,f437e57e30091c06723964d281d462ddc5c78e2f)
-$(call add-radio-file-sha1-checked,radio/fld.img,cdf9d7bc180869471b0196975e0137674089611d)
 $(call add-radio-file-sha1-checked,radio/harx.img,25ecf02e13524afed50a8c638297f2f80c055fd1)
 $(call add-radio-file-sha1-checked,radio/keystorage.img,ba905be9fed2980e6568ffbbee445d4f5b708822)
 $(call add-radio-file-sha1-checked,radio/ldfw.img,e8240ba2690b2990e25ae270b2af0c0af5501af1)

@@ -5,7 +5,6 @@
 AB_OTA_PARTITIONS += \
     bootloader \
     cp_debug \
-    fld \
     harx \
     keystorage \
     ldfw \
