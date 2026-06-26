@@ -3,10 +3,7 @@
 #
 
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/samsung/a55x \
-    hardware/samsung_slsi-linaro/exynos \
-    hardware/samsung_slsi-linaro/graphics \
-    hardware/samsung_slsi-linaro/sgpu
+    vendor/samsung/a55x
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/a55x/proprietary/recovery/root/vendor/firmware/tsp/gt9895_a55x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/tsp/gt9895_a55x.bin \
@@ -140,7 +137,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.s5e8845 \
     libeis_interface \
-    librecordalive \
     libstork_shared \
     libvkservice \
     libaudiosaplus_sec \
