@@ -1,0 +1,7 @@
+# GPS daemon
+service gpsd /vendor/bin/hw/gps.sh
+    class main
+    user gps
+    group system inet net_raw wakelock radio
+    capabilities BLOCK_SUSPEND
+    ioprio be 0
