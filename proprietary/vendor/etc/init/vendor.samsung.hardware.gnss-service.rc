@@ -1,0 +1,5 @@
+service sec_gnss_service /vendor/bin/hw/vendor.samsung.hardware.gnss-service
+    override
+    class main
+    user system
+    group system gps
